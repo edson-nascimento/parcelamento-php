@@ -4,6 +4,9 @@ Biblioteca para ajudar na geração de parcelas com juros e sem juros e arredond
 ## Criando um novo parcelamento
 
 ```
+<?php
+use Parcel\Parcelamento;
+
 $parcelamento = new Parcelamento(12, 6, 10.00, 2.75);
         
 $parcelamento->gerarParcelas('5587.56');
@@ -11,6 +14,9 @@ $parcelamento->gerarParcelas('5587.56');
 ```
 >OU
 ```
+<?php
+use Parcel\Parcelamento;
+
 $parcelamento = new Parcelamento();
 
 $parcelamento->setMaxParcelas(10);
