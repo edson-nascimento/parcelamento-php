@@ -6,8 +6,8 @@ use Parcel\Parcelamento;
 class ParcelamentoTest {
     
     public static function runTest(){
-        $parcelamento = new Parcelamento(6, 12, 10.00, 2.50);
+        $parcelamento = new Parcelamento(12, 6, 10.00, 0);
         
-        return $parcelamento->gerarParcelas();
+        d($parcelamento->gerarParcelas('5587.56'));
     }
 }
