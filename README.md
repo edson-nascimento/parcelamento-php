@@ -27,4 +27,4 @@ $parcelamento->setPorcentagemJuros(2.50);
 $parcelamento->gerarParcelas('777.77');
 
 ```
-Ainda faltam alguns ajustes no arredondamento, pois o php não trabalha muito bem com com casas decimais.
+Ainda faltam alguns ajustes no arredondamento, pois o php não trabalha muito bem com casas decimais.
