@@ -3,7 +3,7 @@ Biblioteca para ajudar na geração de parcelas com juros e sem juros e arredond
 
 ## Criando um novo parcelamento
 
-```
+```php
 <?php
 use Parcel\Parcelamento;
 
@@ -13,7 +13,7 @@ $parcelamento->gerarParcelas('5587.56');
 
 ```
 >OU
-```
+```php
 <?php
 use Parcel\Parcelamento;
 
