@@ -2,7 +2,7 @@
     "name": "Parcelamento PHP",
     "version": "1.0.0",
     "type": "library",
-    "description": "Biblioteca para ajudar na geração de parcelas com juros e sem juros e arredondamento de parcelas em php.",
+    "description": "Biblioteca para ajudar na geração de parcelas com juros, sem juros e arredondamento de parcelas em php.",
     "keywords": ["parcela","parcelamento","installment","buy","ecommerce","juros"],
     "authors": [
         {
