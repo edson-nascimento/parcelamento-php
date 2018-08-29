@@ -1,0 +1,31 @@
+{
+    "name": "Parcelamento PHP",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Biblioteca para ajudar na geração de parcelas com juros e sem juros e arredondamento de parcelas em php.",
+    "keywords": ["parcela","parcelamento","installment","buy","ecommerce","juros"],
+    "authors": [
+        {
+            "name": "Edson Nascimento"
+        }
+    ],
+    "homepage": "https://github.com/edson-nascimento",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "kint-php/kint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parcel\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Parcel\\Test\\": "test/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
